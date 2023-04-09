@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.amphibians
+package ru.training.amphibians
 
 import android.view.View
 import androidx.test.espresso.Espresso.onView

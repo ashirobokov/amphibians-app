@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.amphibians
+package ru.training.amphibians
 
 import androidx.fragment.app.testing.launchFragmentInContainer
 import androidx.test.core.app.launchActivity
@@ -22,9 +22,10 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.isDisplayed
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.amphibians.ui.AmphibianListFragment
+import ru.training.amphibians.ui.AmphibianListFragment
 import org.junit.Test
 import org.junit.runner.RunWith
+
 
 @RunWith(AndroidJUnit4::class)
 class InstrumentationTests : BaseTest() {
